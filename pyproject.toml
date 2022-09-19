@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "fastapi-base-app"
+version = "0.1.0"
+description = ""
+authors = ["Dubovik Kirill <kirilldubovik@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "fastapi_base_app"}]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.85.0"
+uvicorn = {extras = ["standart"], version = "^0.17.6"}
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

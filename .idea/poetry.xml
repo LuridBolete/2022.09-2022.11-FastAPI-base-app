@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PoetryConfigService">
+    <option name="poetryVirtualenvPaths">
+      <set>
+        <option value="C:\Users\Дубовик Кирилл\AppData\Local\pypoetry\Cache\virtualenvs\app-gO6SAZpA-py3.10\Scripts\python.exe" />
+        <option value="C:\Users\Дубовик Кирилл\AppData\Local\pypoetry\Cache\virtualenvs\fastapi-base-app-2yjEDmnT-py3.10\Scripts\python.exe" />
+      </set>
+    </option>
+  </component>
+</project>
